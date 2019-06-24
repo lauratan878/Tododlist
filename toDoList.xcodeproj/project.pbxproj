@@ -13,6 +13,8 @@
 		18DE30BC22C1288500456AAC /* toDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18DE30BA22C1288500456AAC /* toDoList.xcdatamodeld */; };
 		18DE30BE22C1288900456AAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DE30BD22C1288900456AAC /* Assets.xcassets */; };
 		18DE30C122C1288900456AAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DE30BF22C1288900456AAC /* LaunchScreen.storyboard */; };
+		18DE30C922C1305200456AAC /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE30C822C1305200456AAC /* TableViewController.swift */; };
+		18DE30CD22C1315B00456AAC /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE30CC22C1315B00456AAC /* ToDo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		18DE30BD22C1288900456AAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18DE30C022C1288900456AAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18DE30C222C1288900456AAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DE30C822C1305200456AAC /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		18DE30CC22C1315B00456AAC /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				18DE30B322C1288500456AAC /* AppDelegate.swift */,
 				18DE30B522C1288500456AAC /* ViewController.swift */,
 				18DE30B722C1288500456AAC /* Main.storyboard */,
+				18DE30C822C1305200456AAC /* TableViewController.swift */,
+				18DE30CC22C1315B00456AAC /* ToDo.swift */,
 				18DE30BD22C1288900456AAC /* Assets.xcassets */,
 				18DE30BF22C1288900456AAC /* LaunchScreen.storyboard */,
 				18DE30C222C1288900456AAC /* Info.plist */,
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				18DE30B622C1288500456AAC /* ViewController.swift in Sources */,
+				18DE30CD22C1315B00456AAC /* ToDo.swift in Sources */,
 				18DE30BC22C1288500456AAC /* toDoList.xcdatamodeld in Sources */,
 				18DE30B422C1288500456AAC /* AppDelegate.swift in Sources */,
+				18DE30C922C1305200456AAC /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
